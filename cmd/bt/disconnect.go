@@ -1,4 +1,4 @@
-package bluetooth
+package bt
 
 import (
 	"github.com/spf13/cobra"
@@ -7,11 +7,11 @@ import (
 
 var disconnectCmd = &cobra.Command{
     Use:   "disconnect",
-    Aliases: []string{"discon"},
+    Aliases: []string{"dc"},
     Short:  "Disconnect from a Bluetooth device",
     Args:  cobra.ExactArgs(0),
     Run: func(cmd *cobra.Command, args []string) {
-        bluetooth.Disconnect()
+        bt.Disconnect()
     },
 }
 
