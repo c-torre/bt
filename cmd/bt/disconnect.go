@@ -2,7 +2,7 @@ package bluetooth
 
 import (
 	"github.com/spf13/cobra"
-	"gitlab.com/c-torre/bluetooth/pkg/bluetooth"
+	"github.com/c-torre/bt/pkg/bt"
 )
 
 var disconnectCmd = &cobra.Command{
