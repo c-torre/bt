@@ -103,7 +103,7 @@ func get_mac() (string) {
 
 // Connect to device
 func Connect() {
-	fmt.Printf("Select device to connect to:")
+	fmt.Printf("Select device to connect to:\n")
 	fmt.Printf("(if not in list, use `scan on` and `pair` in `bluetoothctl`)")
 	mac := get_mac()
 	cmd := exec.Command("bluetoothctl", "connect", mac)
