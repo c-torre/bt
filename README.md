@@ -8,7 +8,7 @@ It runs `bluetoothctl` CLI (`bluez5`) commands to connect and disconnect from de
 1. Run `go build` to make the binary `bt`.
 2. Use `bt --help` to see the options.
 
-(Optional) Move `bt` to a directory within `path`.
+(Optional) Move `bt` to a directory within `$PATH`.
 
 # Dependencies
 
